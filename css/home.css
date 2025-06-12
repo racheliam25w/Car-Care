@@ -1,0 +1,16 @@
+.back {
+    padding: 30px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.705), rgba(255, 255, 255, 0.5)), url('../Img/hp.avif');
+    background-position: center center;
+    font-weight: bold;
+    margin: auto;
+}
+
+/* ------- VIDEO ------ */
+.video {
+    display: block;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+}

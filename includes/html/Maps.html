@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maps Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/maps.css">
+    <link rel="stylesheet" href="../../css/basic.css">
+</head>
+
+<body>
+    <header>
+        <div id="head-container"></div>
+        <script src="../../JS/header.js"></script>
+    </header>
+
+    <div id="menu-container"></div>
+    <script src="../../JS/menu.js"></script>
+    <br>
+
+    <h2 class="content_title">Welcome to Maps Page</h2>
+    <main class="content">
+        <label class="map-container">
+            <div id="map"></div>
+        </label>
+        <label class="details-container">
+            <div class="map-details">
+                <p id="city" data-label="City: "></p>
+                <p id="garageName" data-label="Garage Name: "></p>
+                <p id="address" data-label="Address: "></p>
+                <p id="phone" data-label="Phone: "></p>
+                <p id="hours" data-label="Business Hours: "></p>
+            </div>
+            <label class="inside">
+                <a href="#" class="notActive"><img src="../../Img/phone.png" alt="Phone"></a>
+                <a href="#" class="notActive"><img src="../../Img/waze.jpg" alt="waze"></a>
+                <a href="#" class="notActive"><img src="../../Img/share.png" alt="share"></a>
+            </label>
+        </label>
+    </main>
+    <br>
+    <footer>
+        <label class="footer_icons">
+            <a href="#" class="notActive"><img src="../../Img/facebook.webp" alt="Facebook" width="3%" height="3%"></a>
+            <a href="#" class="notActive"><img src="../../Img/insta.png" alt="Instagram" width="3.5%" height="3.5%"></a>
+            <a href="#" class="notActive"><img src="../../Img/phone.png" alt="Phone" width="3%" height="3%"></a>
+            <a href="mailto:carcare@example.com"><img src="../../Img/mail.png" alt="Mail" width="3%" height="3%"></a>
+        </label>
+        <br>
+        <p> &copy; Web Project - Car Care - 2024 </p>
+    </footer>
+    <script src="../../JS/notActive.js"></script>
+    <script src="../../JS/scroll.js"></script>
+    <script src="../../JS/search.js"></script>
+    <script src="../../JS/menu-script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../../JS/maps.js"></script>
+    <!-- Include Google Maps script with your API key -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBeTjZrPRW1-i-4OZPmj4NxVum6RaNytQg&callback=initMap" async defer></script>
+</body>
+</html>

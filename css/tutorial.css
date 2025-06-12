@@ -1,0 +1,13 @@
+
+/* ------- VIDEOS ------ */
+
+.youtube-video {
+    padding: 5px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.youtube-video iframe {
+    width: 100%;
+    height: 378px;
+}

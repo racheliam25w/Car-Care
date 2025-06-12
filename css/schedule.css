@@ -1,0 +1,79 @@
+/*-------- CALENDAR -------*/
+
+header2 {
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+.calendar {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    overflow-x: auto;
+  }
+
+.calendar table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.calendar th,
+.calendar td {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.btn-primary,
+.btn-primary-anchor,
+.calendar .prev-month,
+.calendar .next-month {
+    color: black;
+    background-color: silver;
+    padding: 10px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: auto;
+    cursor: pointer;
+}
+
+.btn-primary:hover,
+.btn-primary-anchor:hover,
+.calendar .prev-month:hover,
+.calendar .next-month:hover {
+    background-color: #6E2D75;
+    color: white;
+}
+
+.calendar .current-month {
+    font-size: 20px;
+}
+
+.prev-month {
+    float: left;
+}
+
+.next-month {
+    float: right;
+}
+
+.my_event {
+    text-decoration: none;
+    background-color:#FFAE5A;
+    border-radius: 30px;
+    color:black;
+    cursor: pointer;
+}
+
+.my_event a{
+    text-decoration: none;
+    color:black;
+}
+
+.today{
+    background-color:silver;
+    color:black;
+    border-radius: 30px;
+}

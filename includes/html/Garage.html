@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Garage Page </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/garage.css">
+    <link rel="stylesheet" href="../../css/basic.css">
+</head>
+
+<body>
+    <header>
+        <aside id="head-container"></aside>
+        <script src="../../JS/header.js"></script>
+    </header>
+    <aside id="menu-container"></aside>
+    <script src="../../JS/garage_menu.js"></script>
+    <br>
+    <h2 class="content_title">Welcome to List of Garages</h2>
+    <h5 class="content_title">Hover the menu to choose an area</h5>
+    <div class="content hidden">
+        <table id="1">
+            <h2>North</h2>
+            <tr>
+                <th>City</th>
+                <th>Garage Name</th>
+                <th>Address</th>
+                <th>Phone</th>
+                <th>Business Hours</th>
+            </tr>
+            <tr
+                onclick="window.location.href='Maps.html?city= Nof HaGalil&garageName= FIXIT&address= HaAvoda 8, Nof HaGalil, Israel&phone= 072-3204716&hours= 8:00 - 15:00'">
+                <td>Nof HaGalil</td>
+                <td>FIXIT</td>
+                <td>HaAvoda 8</td>
+                <td>072-3204716</td>
+                <td>8:00 - 15:00</td>
+            </tr>
+            <tr
+                onclick="window.location.href='Maps.html?city= Hadera&garageName= Omega Car&address= Kombah 8, Hadera, Israel&phone= 072-2594728&hours= 7:30 - 16:00'">
+                <td>Hadera</td>
+                <td>Omega Car</td>
+                <td>Kombah 8</td>
+                <td>072-2594728</td>
+                <td>7:30 - 16:00</td>
+            </tr>
+            <tr
+                onclick="window.location.href='Maps.html?city= Tiberias&garageName= Diesel Motors UMI&address= HaMelacha 10, Tiberias, Israel &phone= 072-3227700&hours= 8:00 - 16:00'">
+                <td>Tiberias</td>
+                <td>Diesel Motors UMI</td>
+                <td>HaMelacha 10</td>
+                <td>072-3227700</td>
+                <td>8:00 - 16:00</td>
+            </tr>
+            <tr onclick="window.location.href='Maps.html?city= Amiad&garageName= Car Service Center Ltd.&address=Amiad, Amiad, Israel&phone=072-3204294&hours=7:30 - 17:00'">
+                <td>Ami'ad</td>
+                <td>Car Service Center Ltd.</td>
+                <td>Ami'ad</td>
+                <td>072-3204294</td>
+                <td>7:30 - 17:00</td>
+            </tr>
+            <tr onclick="window.location.href='Maps.html?city= Katzrin&garageName= Automotive Experts A.S.M.R&address= Industrial Zone, Katzrin, Israel&phone= 072-3290420&hours= 8:00 - 17:00'">
+                <td>Katzrin</td>
+                <td>Automotive Experts A.S.M.R</td>
+                <td>Industrial Zone</td>
+                <td>072-3290420</td>
+                <td>8:00 - 17:00</td>
+            </tr>
+            <tr onclick="window.location.href='Maps.html?city= Afula&garageName= Ben Moshe Ovadia & Sons Ltd.&address= Kehilat Zion 18, Afula, Israel&phone= 072-3263277&hours= 8:00 - 16:30'">
+                <td>Afula</td>
+                <td>Ben Moshe Ovadia & Sons Ltd.</td>
+                <td>Kehilat Zion 18</td>
+                <td>072-3263277</td>
+                <td>8:00 - 16:30</td>
+            </tr>
+            <tr onclick="window.location.href='Maps.html?city= Karmiel&garageName= Central Garage Karmiel Ltd.&address= HaHaroshet 31, Karmiel, Israel&phone= 04-9882220&hours= 8:00 - 16:00'">
+                <td>Karmiel</td>
+                <td>Central Garage Karmiel Ltd.</td>
+                <td>HaHaroshet 31</td>
+                <td>04-9882220</td>
+                <td>8:00 - 16:00</td>
+            </tr>
+            <tr onclick="window.location.href='Maps.html?city= Acre&garageName= Argaman Mazda Ford Specialist&address= Gedud 22, Acre, Israel&phone= 04-9919195&hours= 7:30 - 16:00'">
+                <td>Acre</td>
+                <td>Argaman Mazda Ford Specialist</td>
+                <td>Gedud 22</td>
+                <td>04-9919195</td>
+                <td>7:30 - 16:00</td>
+            </tr>
+            <tr onclick="window.location.href='Maps.html?city= Malakhiya&garageName= Polaris North&address= Malakhiya, Malakhiya, Israel&phone= 04-6945468&hours= 8:00 - 16:00'">
+                <td>Malakhiya</td>
+                <td>Polaris North</td>
+                <td>Malakhiya</td>
+                <td>04-6945468</td>
+                <td>8:00 - 16:00</td>
+            </tr>
+            
+        </table>
+    </div>
+
+    <div class="content hidden">
+        <h2> Center </h2>
+        <table id="2">
+            <tr>
+                <th>City</th>
+                <th>Garage Name</th>
+                <th>Address</th>
+                <th>Phone</th>
+                <th>Business Hours</th>
+            </tr>
+            <tr onclick="window.location.href='Maps.html?city= Rishon LeZion&garageName= Y.G.L Auto Front Garage&address= Shmotkin 32, Rishon LeZion, Israel&phone= 03-9673910&hours= 07:30 - 16:00'">
+                <td>Rishon LeZion</td>
+                <td>Y.G.L Auto Front Garage</td>
+                <td>Shmotkin 32</td>
+                <td>03-9673910</td>
+                <td>07:30 - 16:00</td>
+            </tr>
+            <tr onclick="window.location.href='Maps.html?city= Petah Tikva&garageName= Victor Garage&address= Bar Kokhva 49, Petah Tikva, Israel&phone= 03-9346551&hours= 7:30 - 16:00'">
+                <td>Petah Tikva</td>
+                <td>Victor Garage</td>
+                <td>Bar Kokhva 49</td>
+                <td>03-9346551</td>
+                <td>7:30 - 16:00</td>
+            </tr>
+            <tr onclick="window.location.href='Maps.html?city= Holon&garageName= Center Jeep Ltd.&address= HaLohamim 1, Holon, Israel&phone= 03-5036967&hours= 08:00 - 16:00'">
+                <td>Holon</td>
+                <td>Center Jeep Ltd.</td>
+                <td>HaLohamim 1</td>
+                <td>03-5036967</td>
+                <td>08:00 - 16:00</td>
+            </tr>
+            <tr onclick="window.location.href='Maps.html?city= Avnei Yehuda&garageName= M.D Garages&address= Avnei Yehuda, Avnei Yehuda, Israel&phone= 050-4085014&hours= 07:30 - 16:00'">
+                <td>Avnei Yehuda</td>
+                <td>M.D Garages</td>
+                <td>Avnei Yehuda</td>
+                <td>050-4085014</td>
+                <td>07:30 - 16:00</td>
+            </tr>
+            <tr onclick="window.location.href='Maps.html?city= Yehud&garageName= Car Motors Pachachot VeTzva&address= Even Gvirol 7, Yehud-Monosson, Israel&phone= 03-5703333&hours= 8:00 - 16:30'">
+                <td>Yehud-Monosson</td>
+                <td>Car Motors Pachachot VeTzva</td>
+                <td>Even Gvirol 7</td>
+                <td>03-5703333</td>
+                <td>8:00 - 16:30</td>
+            </tr>
+            <tr onclick="window.location.href='Maps.html?city= Ramla&garageName= Rafi and Yasmin Garage&address= HaEtzel 17, Ramla, Israel&phone= 08-9530089&hours= 08:00 - 16:00'">
+                <td>Ramla</td>
+                <td>Rafi and Yasmin Garage</td>
+                <td>HaEtzel 17</td>
+                <td>08-9530089</td>
+                <td>08:00 - 16:00</td>
+            </tr>
+            <tr onclick="window.location.href='Maps.html?city= Mavo Horon&garageName= Bar Car Services&address= Mavo Horon, Mavo Horon, Israel&phone= 08-9722733&hours= 07:30 - 16:00'">
+                <td>Mavo Horon</td>
+                <td>Bar Car Services</td>
+                <td>Mavo Horon</td>
+                <td>08-9722733</td>
+                <td>07:30 - 16:00</td>
+            </tr>
+            <tr onclick="window.location.href='Maps.html?city= Givat HaShlosha&garageName= Alon Garage 2000&address= Givat HaShlosha, Givat HaShlosha, Israel&phone= 03-9374928&hours= 08:00 - 16:00'">
+                <td>Givat HaShlosha</td>
+                <td>Alon Garage 2000</td>
+                <td>Givat HaShlosha</td>
+                <td>03-9374928</td>
+                <td>08:00 - 16:00</td>
+            </tr>
+        </table>
+    </div>
+    <div class="content hidden">
+        <h2> South </h2>
+        <table id="3">
+            <tr>
+                <th>City</th>
+                <th>Garage Name</th>
+                <th>Address</th>
+                <th>Phone</th>
+                <th>Business Hours</th>
+            </tr>
+            <tr onclick="window.location.href='Maps.html?city= Be%27er Sheva&garageName= Engineer Garage&address= HaPlada 15, Be%27er Sheva, Israel&phone= 072-3943266&hours= 08:00 - 16:00'">
+                <td>Be'er Sheva</td>
+                <td>Engineer Garage</td>
+                <td>HaPlada 15</td>
+                <td>072-3943266</td>
+                <td>08:00 - 16:00</td>
+            </tr>
+            <tr onclick="window.location.href='Maps.html?city= Ashkelon&garageName= Puzzle Motors Car Services&address= Hapninin 10, Ashkelon, Israel&phone= 08-6750757&hours= 7:30 - 16:00'">
+                <td>Ashkelon</td>
+                <td>Puzzle Motors Car Services</td>
+                <td>Hapninin 10</td>
+                <td>08-6750757</td>
+                <td>7:30 - 16:00</td>
+            </tr>
+            <tr onclick="window.location.href='Maps.html?city= Ashdod&garageName= Car Atmor&address= Hahadrim 40, Ashdod, Israel&phone= 072-3940893&hours= 07:30 - 16:00'">
+                <td>Ashdod</td>
+                <td>Car Atmor</td>
+                <td>Hahadrim 40</td>
+                <td>072-3940893</td>
+                <td>07:30 - 16:00</td>
+            </tr>
+            <tr onclick="window.location.href='Maps.html?city= Mishor Adumim&garageName= Avi Btzaleli Garage&address= Haruvit 12, Mishor Adumim, Israel&phone= 072-3952298&hours= 08:00 - 16:00'">
+                <td>Mishor Adumim</td>
+                <td>Avi Btzaleli Garage</td>
+                <td>Haruvit 12</td>
+                <td>072-3952298</td>
+                <td>08:00 - 16:00</td>
+            </tr>
+            <tr onclick="window.location.href='Maps.html?city= Shilat&garageName= P.G. Pachachot VeTzva&address= Shilat, Shilat, Israel&phone= 08-9765739&hours= 07:30 - 16:00'">
+                <td>Shilat</td>
+                <td>P.G. Pachachot VeTzva</td>
+                <td>Shilat</td>
+                <td>08-9765739</td>
+                <td>07:30 - 16:00</td>
+            </tr>
+            <tr onclick="window.location.href='Maps.html?city= Kiryat Malachi&garageName= Professional Motors&address= Nir 15, Kiryat Malachi, Israel&phone= 08-6697000&hours= 8:00 - 16:30'">
+                <td>Kiryat Malachi</td>
+                <td>Professional Motors</td>
+                <td>Nir 15</td>
+                <td>08-6697000</td>
+                <td>8:00 - 16:30</td>
+            </tr>
+            <tr onclick="window.location.href='Maps.html?city= Eilat&garageName= Hanoch Garage&address= Hasapan 12, Eilat, Israel&phone= 072-3901274&hours= 07:30 - 16:00'">
+                <td>Eilat</td>
+                <td>Hanoch Garage</td>
+                <td>Hasapan 12</td>
+                <td>072-3901274</td>
+                <td>07:30 - 16:00</td>
+            </tr>
+            <tr onclick="window.location.href='Maps.html?city= Yavne&garageName= A. Aharonovitz Car Services Yavne&address= Hayarkon 1, Yavne, Israel&phone= 08-9422662&hours= 07:30 - 16:00'">
+                <td>Yavne</td>
+                <td>A. Aharonovitz Car Services Yavne</td>
+                <td>Hayarkon 1</td>
+                <td>08-9422662</td>
+                <td>07:30 - 16:00</td>
+            </tr>
+            <tr onclick="window.location.href='Maps.html?city= Netivot&garageName= A.A. Atias&address= Hakatsir 669, Netivot, Israel&phone= 072-3975382&hours= 08:00 - 16:00'">
+                <td>Netivot</td>
+                <td>A.A. Atias</td>
+                <td>Hakatsir 669</td>
+                <td>072-3975382</td>
+                <td>08:00 - 16:00</td>
+            </tr>
+        </table>
+        <button id="scrollToTopBtn">&uarr;</button>
+    </div>
+    <br>
+
+    <footer>
+        <label class="footer_icons">
+            <a href="#" class="notActive"><img src="../../Img/facebook.webp" alt="Facebook" width="3%" height="3%"></a>
+            <a href="#" class="notActive"><img src="../../Img/insta.png" alt="Instagram" width="3.5%" height="3.5%"></a>
+            <a href="#" class="notActive"><img src="../../Img/phone.png" alt="Phone" width="3%" height="3%"></a>
+            <a href="mailto:carcare@example.com"><img src="../../Img/mail.png" alt="Mail" width="3%" height="3%"></a>
+        </label>
+        <br>
+        <p> &copy; 2024 Car Care </p>
+    </footer>
+    <script src="../../JS/scroll.js"></script>
+    <script src="../../JS/search.js"></script>
+    <script src="../../JS/notActive.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

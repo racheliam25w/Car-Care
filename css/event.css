@@ -1,0 +1,25 @@
+.content2, .running-message-container {
+    width: 50%;
+    height: 300px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+}
+
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.running-message {
+    height: 200px;
+    padding: 100px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color:#F4D6FF;
+}
+
+

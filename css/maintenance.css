@@ -1,0 +1,28 @@
+.button-list {
+    text-align: center;
+    flex-direction: row;
+}
+
+.button-list button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #6E2D75;
+    color: white;
+    border: none;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.button-list button:hover {
+    background-color: red;
+    color: white;
+}
+
+.car {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
