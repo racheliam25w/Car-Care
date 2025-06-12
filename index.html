@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/basic.css">
+</head>
+
+<body>
+    <header>
+        <h2 class="greet"> Hello, racheliam </h2>
+        <h1> Car Care </h1>
+        <label class="search">
+            <button>
+                <a href="#" onclick="toggleSearchInput()"><img src="Img/search.png" alt="Search"></a>
+            </button>
+            <span id="searchInputContainer" style="display:none;">
+                <input type="text" id="searchInput" placeholder="Enter word to search">
+                <button style="color: azure; border-style:solid;border-color: azure;"
+                    onclick="searchAndHighlight()">Search</button>
+            </span>
+        </label>
+        <label class="user">
+            <a href="#" class="notActive"><img src="Img/user.png" alt="User Icon"></a>
+        </label>
+    </header>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="includes/php/Schedule.php">Schedule</a></li>
+            <li><a href="includes/html/Maintenance.html">Maintenance</a></li>
+            <li><a href="includes/html/Garage.html">Garage</a></li>
+            <li class="has-submenu">
+                <a href="includes/html/Tutorial.html">Tutorial</a>
+                <ul class="submenu">
+                    <li class="submenu-category">
+                        <span class="submenu-category-title">Engine Maintenance</span>
+                        <ul class="submenu-links">
+                            <li><a href="includes/html/Tutorial.html#1">Air cabin filter</a></li>
+                            <li><a href="includes/html/Tutorial.html#2">Fluids</a></li>
+                            <li><a href="includes/html/Tutorial.html#3">Air filter</a></li>
+                            <li><a href="includes/html/Tutorial.html#5">AC</a></li>
+                            <li><a href="includes/html/Tutorial.html#6">Brakes</a></li>
+                            <li><a href="includes/html/Tutorial.html#9">Oil Changes</a></li>
+                        </ul>
+                    </li>
+                    <li class="submenu-category">
+                        <span class="submenu-category-title">Car Exterior Care</span>
+                        <ul class="submenu-links">
+                            <li><a href="includes/html/Tutorial.html#4">Wash and Wax</a></li>
+                            <li><a href="includes/html/Tutorial.html#8">Headlights</a></li>
+                            <li><a href="includes/html/Tutorial.html#10">Wiper Blades</a></li>
+                        </ul>
+                    </li>
+                    <li class="submenu-category">
+                        <span class="submenu-category-title">Tire Maintenance</span>
+                        <ul class="submenu-links">
+                            <li><a href="includes/html/Tutorial.html#7">Tire tread</a></li>
+                            <li><a href="includes/html/Tutorial.html#9">Tire pressure</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </li>
+        </ul>
+    </nav>
+
+    <br>
+    <main class="content">
+        <h2 class="content_title"> Welcome to Car Care </h2>
+        <p>
+            Motor vehicles must be properly maintained by their owners to operate safely. A careless lack of vehicle
+            maintenance can lead to the car falling into a dangerous state of disrepair. This can affect its
+            roadworthiness and result in preventable car accidents. If an investigation finds that a vehicle owner was
+            negligent in maintaining the car and that this caused or contributed to a crash, the owner can be held
+            financially responsible.
+        </p>
+
+        <video id="myVideo" autoplay muted controls loop class="video">
+            <source src="Img/drive.mp4" type="video/mp4">
+        </video>
+
+        <br>
+
+        <h3 class="content_title"> Our website offers a service that comes to solve exactly this problem </h3>
+        <article class="back">
+            <p>The driver, vehicle owner, must take steps to ensure that a vehicle is reasonably safe for the road.
+                <br>Examples of routine vehicle maintenance include:
+            </p>
+            <ul>
+                <li> Checking tire pressure</li>
+                <li> Inflating or deflating tires as necessary for different weather conditions</li>
+                <li> Replacing tires that have bubbles or worn tread</li>
+                <li> Replacing broken windshield wiper blades</li>
+                <li> Refilling windshield washer fluid</li>
+                <li> Checking fluid levels</li>
+                <li> Paying attention to the vehicle's warning lights</li>
+                <li> Replacing worn, cracked or broken belts</li>
+                <li> Having brakes and brake pads periodically inspected by professionals</li>
+            </ul>
+        </article>
+        <br>
+
+        <button id="scrollToTopBtn">&uarr;</button>
+    </main>
+
+    <footer>
+        <label class="footer_icons">
+            <a href="#" class="notActive"><img src="Img/facebook.webp" alt="Facebook" width="3%" height="3%"></a>
+            <a href="#" class="notActive"><img src="Img/insta.png" alt="Instagram" width="3.5%" height="3.5%"></a>
+            <a href="#" class="notActive"><img src="Img/phone.png" alt="Phone" width="3%" height="3%"></a>
+            <a href="mailto:carcare@example.com"><img src="Img/mail.png" alt="Mail" width="3%" height="3%"></a>
+        </label>
+        <br>
+        <p> &copy; Web Project - Car Care - 2024 </p>
+    </footer>
+
+    <script src="JS/scroll.js"></script>
+    <script src="JS/search.js"></script>
+    <script src="JS/notActive.js"></script>
+
+    <script>
+        var video = document.getElementById('myVideo');
+        video.playbackRate = 0.45;
+        video.controls = false;
+    </script>
+
+
+</body>
+
+</html>
